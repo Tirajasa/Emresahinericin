@@ -51,7 +51,7 @@ h2 {
    
 }
 .maps {
-    margin-top: -7rem;
+    margin-top: 0.3rem;
    width: 10rem;
 }
 .gamebox:hover {
@@ -74,3 +74,28 @@ h2 {
     background: rgba(20, 20, 20, 0.771);;
 }
 
+.overview-line {
+    display: flex;
+    align-items: center;
+    
+}
+.video-overview {
+   
+}
+.gradient{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.video-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap:2vw;
+    width: 50vw;
+}
+.rating {
+    display: flex;
+    column-gap:3vw;
+  
+}
