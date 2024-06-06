@@ -1,5 +1,5 @@
 * {
-    font-size: 16px;
+    
     font-family: "Syne Mono";
 }
    
@@ -68,7 +68,7 @@ h2 {
     padding: 0.5rem 1rem;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 1em;
-    background: rgba(20, 20, 20, 0.197);
+    background: rgba(130, 125, 132, 0.197);
 }
 .user-panel:hover{
     background: rgba(20, 20, 20, 0.771);;
@@ -80,22 +80,78 @@ h2 {
     
 }
 .video-overview {
+    display: flex;
+    align-items: center;
    
 }
+
 .gradient{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 60vw;
+    
 }
 .video-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     column-gap:2vw;
-    width: 50vw;
+    width: 60vw;
+    background-color: rgba(95, 88, 97, 0.124);
 }
 .rating {
     display: flex;
     column-gap:3vw;
   
+}
+.big-video{
+    width: 60vw;
+    aspect-ratio: 16/9;
+    
+}
+.Download{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 0.5rem;
+    border: 1px solid tomato;
+    
+    
+}
+.Download a {
+    
+    font-size: 0.2rem;
+    width: 100px;
+    text-wrap: balance;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    background: rgb(203, 0, 54);
+    border: 1px solid rgb(255, 255, 255);
+   
+    
+    
+}
+
+.Download a button{
+   color: whitesmoke;
+    background-color: red;
+    height: 40px;
+    border-top-left-radius: 50px ;
+    
+}
+.photo-tags {
+    margin: -5vw 10vw 0 -8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.photo-tags img {
+width: 6vw;
+border: 1px solid gray;
+}
+.photo-tags img:hover {
+    width: 12vw; !important
 }
